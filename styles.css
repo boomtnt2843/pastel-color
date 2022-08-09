@@ -24,7 +24,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    padding: 10vh 2rem;
+    padding: 10vh 0;
 }
 .box__color{
     background: #FFF;
