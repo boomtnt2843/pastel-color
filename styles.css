@@ -25,6 +25,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 10vh 0;
+    flex-wrap: wrap;
 }
 .box__color{
     background: #FFF;
@@ -60,4 +61,59 @@ body{
     background: var(--c);
     background: linear-gradient(135deg, var(--c1) 0%, var(--c2) 100%);
     box-shadow: 10px 10px 50px -20px rgb(150, 150, 150);
+}
+.footer__color{
+    display: flex;
+    background: #454545;
+    padding: 2rem;
+    color: #FFF;
+}
+.footer__left{
+    flex: 1;
+}
+.footer__right{
+    flex: 1;
+}
+
+@media screen and (max-width:1062px) {
+    .box__container{
+        height: 200vh;
+    }
+    .header__color h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:725px) {
+    .header__color h1{
+        font-size: 4rem;
+    }
+    .box__cir{
+        height: 8rem;
+        width: 8rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .header__color h1{
+        font-size: 3.5rem;
+    }
+    .box__cir{
+        height: 6rem;
+        width: 6rem;
+    }
+    .footer__left h2, .footer__right h2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .header__color h1{
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+    .box__cir{
+        height: 4rem;
+        width: 4rem;
+    }
+    .box__color h2{
+        font-size: 1.2rem;
+    }
 }
