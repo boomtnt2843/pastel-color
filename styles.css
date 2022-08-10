@@ -70,9 +70,11 @@ body{
 }
 .footer__left{
     flex: 1;
+    padding: 1rem;
 }
 .footer__right{
     flex: 1;
+    padding: 1rem;
 }
 
 @media screen and (max-width:1062px) {
